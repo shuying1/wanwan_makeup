@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>化妆图片库 - 万万MAKEUP</title>
+    <title>装造集 - 万万MAKEUP</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -69,6 +69,13 @@
             z-index: 10;
         }
 
+         .portfolio-img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            display: block;
+            object-position: 50% 20%
+        }
         .image-card {
             background: white;
             border-radius: 10px;
@@ -241,7 +248,7 @@
         <div class="watermark-badge">万万 MAKEUP</div>
         
         <header>
-            <h1>万万 💄 化妆图片库</h1>
+            <h1>💄 装造集 - 万万MAKEUP</h1>
             <div class="subtitle">Makeup Reference Images Collection</div>
         </header>
 
@@ -255,7 +262,7 @@
                     2. 替换下方data-src的URL为CDN链接
                     示例：https://cdn.jsdelivr.net/gh/username/repository@main/makeup/image.jpg
                     -->
-                    <img data-src="./makeup/微信图片_20260112141045.jpg" alt="微信图片_20260112141045" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
+                    <img data-src="./makeup/微信图片_20260127113323.jpg"  class="portfolio-img"  alt="微信图片_20260112141045" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
                     <div class="loading-placeholder">加载中...</div>
                     <div class="image-watermark">万万MAKEUP</div>
                 </div>
@@ -267,7 +274,7 @@
 
             <div class="image-card">
                 <div class="image-container">
-                    <img data-src="./makeup/微信图片_20260112141122.jpg" alt="微信图片_20260112141122" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
+                    <img data-src="./makeup/微信图片_20260112141122.jpg"  class="portfolio-img" alt="微信图片_20260112141122" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
                     <div class="loading-placeholder">加载中...</div>
                     <div class="image-watermark">万万MAKEUP</div>
                 </div>
@@ -279,7 +286,7 @@
 
             <div class="image-card">
                 <div class="image-container">
-                    <img data-src="./makeup/微信图片_20260112141128.jpg" alt="微信图片_20260112141128" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
+                    <img data-src="./makeup/微信图片_20260112141128.jpg"  class="portfolio-img" alt="微信图片_20260112141128" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
                     <div class="loading-placeholder">加载中...</div>
                     <div class="image-watermark">万万MAKEUP</div>
                 </div>
@@ -291,7 +298,7 @@
 
             <div class="image-card">
                 <div class="image-container">
-                    <img data-src="./makeup/微信图片_20260112141216.jpg" alt="微信图片_20260112141216" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
+                    <img data-src="./makeup/微信图片_20260112141216.jpg"  class="portfolio-img" alt="微信图片_20260112141216" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
                     <div class="loading-placeholder">加载中...</div>
                     <div class="image-watermark">万万MAKEUP</div>
                 </div>
@@ -303,7 +310,7 @@
 
             <div class="image-card">
                 <div class="image-container">
-                    <img data-src="./makeup/微信图片_20260112141224.jpg" alt="微信图片_20260112141224" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
+                    <img data-src="./makeup/微信图片_20260112141224.jpg" class="portfolio-img" alt="微信图片_20260112141224" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
                     <div class="loading-placeholder">加载中...</div>
                     <div class="image-watermark">万万MAKEUP</div>
                 </div>
@@ -315,7 +322,7 @@
 
             <div class="image-card">
                 <div class="image-container">
-                    <img data-src="./makeup/微信图片_20260112141229.jpg" alt="微信图片_20260112141229" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
+                    <img data-src="./makeup/微信图片_20260112141229.jpg" class="portfolio-img" alt="微信图片_20260112141229" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
                     <div class="loading-placeholder">加载中...</div>
                     <div class="image-watermark">万万MAKEUP</div>
                 </div>
@@ -327,7 +334,7 @@
 
             <div class="image-card">
                 <div class="image-container">
-                    <img data-src="./makeup/微信图片_20260112141234.jpg" alt="微信图片_20260112141234" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
+                    <img data-src="./makeup/微信图片_20260112141234.jpg" class="portfolio-img" alt="微信图片_20260112141234" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
                     <div class="loading-placeholder">加载中...</div>
                     <div class="image-watermark">万万MAKEUP</div>
                 </div>
@@ -351,7 +358,7 @@
 
             <div class="image-card">
                 <div class="image-container">
-                    <img data-src="./makeup/微信图片_20260112141244.jpg" alt="微信图片_20260112141244" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
+                    <img data-src="./makeup/微信图片_20260112141244.jpg" class="portfolio-img" alt="微信图片_20260112141244" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
                     <div class="loading-placeholder">加载中...</div>
                     <div class="image-watermark">万万MAKEUP</div>
                 </div>
@@ -363,7 +370,7 @@
 
             <div class="image-card">
                 <div class="image-container">
-                    <img data-src="./makeup/微信图片_20260112141250.jpg" alt="微信图片_20260112141250" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
+                    <img data-src="./makeup/微信图片_20260112141250.jpg" class="portfolio-img" alt="微信图片_20260112141250" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
                     <div class="loading-placeholder">加载中...</div>
                     <div class="image-watermark">万万MAKEUP</div>
                 </div>
@@ -375,7 +382,7 @@
 
             <div class="image-card">
                 <div class="image-container">
-                    <img data-src="./makeup/微信图片_20260112141300.jpg" alt="微信图片_20260112141300" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
+                    <img data-src="./makeup/微信图片_20260112141300.jpg" class="portfolio-img" alt="微信图片_20260112141300" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
                     <div class="loading-placeholder">加载中...</div>
                     <div class="image-watermark">万万MAKEUP</div>
                 </div>
@@ -387,7 +394,7 @@
 
             <div class="image-card">
                 <div class="image-container">
-                    <img data-src="./makeup/微信图片_20260112141304.jpg" alt="微信图片_20260112141304" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
+                    <img data-src="./makeup/微信图片_20260112141304.jpg" class="portfolio-img" alt="微信图片_20260112141304" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
                     <div class="loading-placeholder">加载中...</div>
                     <div class="image-watermark">万万MAKEUP</div>
                 </div>
@@ -399,7 +406,7 @@
 
             <div class="image-card">
                 <div class="image-container">
-                    <img data-src="./makeup/微信图片_20260112141309.jpg" alt="微信图片_20260112141309" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
+                    <img data-src="./makeup/微信图片_20260112141309.jpg" class="portfolio-img" alt="微信图片_20260112141309" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
                     <div class="loading-placeholder">加载中...</div>
                     <div class="image-watermark">万万MAKEUP</div>
                 </div>
@@ -411,7 +418,7 @@
 
             <div class="image-card">
                 <div class="image-container">
-                    <img data-src="./makeup/微信图片_20260112141313.jpg" alt="微信图片_20260112141313" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
+                    <img data-src="./makeup/微信图片_20260112141313.jpg" class="portfolio-img" alt="微信图片_20260112141313" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
                     <div class="loading-placeholder">加载中...</div>
                     <div class="image-watermark">万万MAKEUP</div>
                 </div>
@@ -423,7 +430,7 @@
 
             <div class="image-card">
                 <div class="image-container">
-                    <img data-src="./makeup/微信图片_20260112141318.jpg" alt="微信图片_20260112141318" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
+                    <img data-src="./makeup/微信图片_20260112141318.jpg" class="portfolio-img" alt="微信图片_20260112141318" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
                     <div class="loading-placeholder">加载中...</div>
                     <div class="image-watermark">万万MAKEUP</div>
                 </div>
@@ -435,7 +442,7 @@
 
             <div class="image-card">
                 <div class="image-container">
-                    <img data-src="./makeup/微信图片_20260112141323.jpg" alt="微信图片_20260112141323" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
+                    <img data-src="./makeup/微信图片_20260112141323.jpg" class="portfolio-img" alt="微信图片_20260112141323" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
                     <div class="loading-placeholder">加载中...</div>
                     <div class="image-watermark">万万MAKEUP</div>
                 </div>
@@ -447,7 +454,7 @@
 
             <div class="image-card">
                 <div class="image-container">
-                    <img data-src="./makeup/微信图片_20260112141327.jpg" alt="微信图片_20260112141327" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
+                    <img data-src="./makeup/微信图片_20260112141327.jpg"  class="portfolio-img"alt="微信图片_20260112141327" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
                     <div class="loading-placeholder">加载中...</div>
                     <div class="image-watermark">万万MAKEUP</div>
                 </div>
@@ -459,7 +466,7 @@
 
             <div class="image-card">
                 <div class="image-container">
-                    <img data-src="./makeup/微信图片_20260112141333.jpg" alt="微信图片_20260112141333" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
+                    <img data-src="./makeup/微信图片_20260112141333.jpg" class="portfolio-img" alt="微信图片_20260112141333" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
                     <div class="loading-placeholder">加载中...</div>
                     <div class="image-watermark">万万MAKEUP</div>
                 </div>
@@ -471,7 +478,7 @@
 
             <div class="image-card">
                 <div class="image-container">
-                    <img data-src="./makeup/微信图片_20260112141338.jpg" alt="微信图片_20260112141338" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
+                    <img data-src="./makeup/微信图片_20260112141338.jpg" class="portfolio-img" alt="微信图片_20260112141338" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
                     <div class="loading-placeholder">加载中...</div>
                     <div class="image-watermark">万万MAKEUP</div>
                 </div>
@@ -483,7 +490,7 @@
 
             <div class="image-card">
                 <div class="image-container">
-                    <img data-src="./makeup/微信图片_20260112141343.jpg" alt="微信图片_20260112141343" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
+                    <img data-src="./makeup/微信图片_20260112141343.jpg" class="portfolio-img" alt="微信图片_20260112141343" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
                     <div class="loading-placeholder">加载中...</div>
                     <div class="image-watermark">万万MAKEUP</div>
                 </div>
@@ -495,7 +502,7 @@
 
             <div class="image-card">
                 <div class="image-container">
-                    <img data-src="./makeup/微信图片_20260112141347.jpg" alt="微信图片_20260112141347" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
+                    <img data-src="./makeup/微信图片_20260112141347.jpg" class="portfolio-img" alt="微信图片_20260112141347" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
                     <div class="loading-placeholder">加载中...</div>
                     <div class="image-watermark">万万MAKEUP</div>
                 </div>
@@ -507,7 +514,7 @@
 
             <div class="image-card">
                 <div class="image-container">
-                    <img data-src="./makeup/微信图片_20260112141351.jpg" alt="微信图片_20260112141351" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
+                    <img data-src="./makeup/微信图片_20260112141351.jpg" class="portfolio-img" alt="微信图片_20260112141351" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
                     <div class="loading-placeholder">加载中...</div>
                     <div class="image-watermark">万万MAKEUP</div>
                 </div>
@@ -519,7 +526,7 @@
 
             <div class="image-card">
                 <div class="image-container">
-                    <img data-src="./makeup/微信图片_20260112141355.jpg" alt="微信图片_20260112141355" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
+                    <img data-src="./makeup/微信图片_20260112141355.jpg" class="portfolio-img" alt="微信图片_20260112141355" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
                     <div class="loading-placeholder">加载中...</div>
                     <div class="image-watermark">万万MAKEUP</div>
                 </div>
@@ -531,7 +538,7 @@
 
             <div class="image-card">
                 <div class="image-container">
-                    <img data-src="./makeup/微信图片_20260112141401.jpg" alt="微信图片_20260112141401" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
+                    <img data-src="./makeup/微信图片_20260112141401.jpg" class="portfolio-img" alt="微信图片_20260112141401" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
                     <div class="loading-placeholder">加载中...</div>
                     <div class="image-watermark">万万MAKEUP</div>
                 </div>
@@ -543,7 +550,7 @@
 
             <div class="image-card">
                 <div class="image-container">
-                    <img data-src="./makeup/微信图片_20260112141405.jpg" alt="微信图片_20260112141405" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
+                    <img data-src="./makeup/微信图片_20260112141405.jpg" class="portfolio-img" alt="微信图片_20260112141405" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
                     <div class="loading-placeholder">加载中...</div>
                     <div class="image-watermark">万万MAKEUP</div>
                 </div>
@@ -555,7 +562,7 @@
 
             <div class="image-card">
                 <div class="image-container">
-                    <img data-src="./makeup/微信图片_20260112141409.jpg" alt="微信图片_20260112141409" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
+                    <img data-src="./makeup/微信图片_20260112141409.jpg" class="portfolio-img" alt="微信图片_20260112141409" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
                     <div class="loading-placeholder">加载中...</div>
                     <div class="image-watermark">万万MAKEUP</div>
                 </div>
@@ -567,7 +574,7 @@
 
             <div class="image-card">
                 <div class="image-container">
-                    <img data-src="./makeup/微信图片_20260112141413.jpg" alt="微信图片_20260112141413" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
+                    <img data-src="./makeup/微信图片_20260112141413.jpg" class="portfolio-img" alt="微信图片_20260112141413" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
                     <div class="loading-placeholder">加载中...</div>
                     <div class="image-watermark">万万MAKEUP</div>
                 </div>
@@ -579,7 +586,7 @@
 
             <div class="image-card">
                 <div class="image-container">
-                    <img data-src="./makeup/微信图片_20260112141417.jpg" alt="微信图片_20260112141417" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
+                    <img data-src="./makeup/微信图片_20260112141417.jpg" class="portfolio-img" alt="微信图片_20260112141417" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
                     <div class="loading-placeholder">加载中...</div>
                     <div class="image-watermark">万万MAKEUP</div>
                 </div>
@@ -591,7 +598,7 @@
 
             <div class="image-card">
                 <div class="image-container">
-                    <img data-src="./makeup/微信图片_20260112141421.jpg" alt="微信图片_20260112141421" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
+                    <img data-src="./makeup/微信图片_20260112141421.jpg" class="portfolio-img" alt="微信图片_20260112141421" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
                     <div class="loading-placeholder">加载中...</div>
                     <div class="image-watermark">万万MAKEUP</div>
                 </div>
@@ -603,7 +610,7 @@
 
             <div class="image-card">
                 <div class="image-container">
-                    <img data-src="./makeup/微信图片_20260112141425.jpg" alt="微信图片_20260112141425" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
+                    <img data-src="./makeup/微信图片_20260112141425.jpg" class="portfolio-img" alt="微信图片_20260112141425" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
                     <div class="loading-placeholder">加载中...</div>
                     <div class="image-watermark">万万MAKEUP</div>
                 </div>
@@ -615,7 +622,7 @@
             
             <div class="image-card">
                 <div class="image-container">
-                    <img data-src="./makeup/微信图片_20260112143809.jpg" alt="微信图片_20260112143809" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
+                    <img data-src="./makeup/微信图片_20260112143809.jpg" class="portfolio-img" alt="微信图片_20260112143809" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
                     <div class="loading-placeholder">加载中...</div>
                     <div class="image-watermark">万万MAKEUP</div>
                 </div>
@@ -627,7 +634,7 @@
 
             <div class="image-card">
                 <div class="image-container">
-                    <img data-src="./makeup/微信图片_20260112143818.jpg" alt="微信图片_20260112143818" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
+                    <img data-src="./makeup/微信图片_20260112143818.jpg" class="portfolio-img" alt="微信图片_20260112143818" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
                     <div class="loading-placeholder">加载中...</div>
                     <div class="image-watermark">万万MAKEUP</div>
                 </div>
@@ -639,7 +646,7 @@
 
             <div class="image-card">
                 <div class="image-container">
-                    <img data-src="./makeup/微信图片_20260112143824.jpg" alt="微信图片_20260112143824" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
+                    <img data-src="./makeup/微信图片_20260112143824.jpg" class="portfolio-img" alt="微信图片_20260112143824" onerror="this.onerror=null; this.parentElement.innerHTML='<div style=\'height: 100%; display: flex; align-items: center; justify-content: center; color: #777; font-style: italic;\'>图片加载失败</div>';">
                     <div class="loading-placeholder">加载中...</div>
                     <div class="image-watermark">万万MAKEUP</div>
                 </div>
